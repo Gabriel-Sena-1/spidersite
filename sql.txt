@@ -1,0 +1,20 @@
+CREATE TABLE spider (
+    id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(1024) NOT NULL,
+    tempo VARCHAR(1024) NOT NULL,
+    cor VARCHAR(1024) NOT NULL,
+    terra INT NOT NULL, 
+    RA INT NOT NULL, 
+    PRIMARY KEY(id)
+  );
+  
+  CREATE TABLE administradores (
+    id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    senha VARCHAR(128) NOT NULL,
+    PRIMARY KEY(id)
+  );
+  
+  INSERT INTO administradores (nome, senha) 
+  VALUES ('adm', 'E10ADC3949BA59ABBE56E057F20F883E'),
+         ('adm1',  'E10ADC3949BA59ABBE56E057F20F883E');

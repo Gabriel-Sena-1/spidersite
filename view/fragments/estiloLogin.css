@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Homoarakhan;
+    src: url(../fonts/CombackHomeRegular.ttf);
+ }
+
+ @font-face {
+    font-family: [JosefinSans];
+    src: url(../fonts/SpeedyRegular.ttf);
+ }
+
+body {
+    background-image: url("./../img/imagemMiles2099.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-body {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .title {
+    color: #db0101;
+    font-family: "Homoarakhan", sans-serif;
+  }
+  
+  .input,
+  .button {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .button.is-primary {
+    background-color: #db0101;
+  }
+
+  .button.is-primary:hover {
+    background-color: #9d01db50;
+  }
+  
+  .label {
+    color: white;
+  }
+  
